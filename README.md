@@ -1,2 +1,2 @@
-# cusro-em-video-javascript
+# curso-em-video-javascript
  iniciando na linguem javascript
