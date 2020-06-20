@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Converção</title>
+
+</head>
+
+<body>
+
+    De que pais voce é: <input type="text" name="txtpa" id="txtpa">
+
+    <input type="button" value="verificar" onclick="verificar()">
+
+    <div id = 'res'
+
+    
+
+    ></div>
+
+    <script>
+
+        function verificar(){
+
+            var txt = window.document.querySelector('input#txtpa')
+
+            var res = window.document.querySelector('div#res')
+
+            var pais = (txtpa.value)
+
+            res.innerHTML = `Você é do pais ${pais}`
+
+            if (pais == 'Brasil'){
+
+                res.innerHTML += 'Vocé e <strong>BRASILEIRO</strong>'      
+
+            }
+
+            else {
+
+                res.innerHTML += 'Você <strong>ESTRANGEITO</strong>'
+
+            }
+
+
+
+
+
+        
+
+
+
+        }
+
+    
+
+    
+
+    </script>
+
+
+
+</body>
+
+</html>
